@@ -25,7 +25,7 @@ void    check_SDL_Init(SDL_Surface* p_element)
         }
 }
 
-/* transform 3 unsigned short into an unsigned short[])
+/* transform 3 unsigned short into an unsigned short[]) */
 unsigned short*     int_to_color(unsigned short p_r, unsigned short p_g, unsigned short p_b)
 {
     unsigned short* ret_tab;
