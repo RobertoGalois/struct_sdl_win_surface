@@ -5,10 +5,6 @@
 
 int     main(int argc, char *argv[])
 {
-        SDL_Surface         *window = NULL;     /* main window */
-        SDL_Surface         *rectangle;         /* surface */
-        SDL_Rect            position;           /* coord of surface  */
-
         struct s_surface*   surface;
         struct s_window*    yolo_window;
         struct s_surface*   surface2;
